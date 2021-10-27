@@ -14,7 +14,7 @@ export default function Navbar() {
 
     return (
         <>
-            <div className="flex items-center justify-between w-full h-20 px-3 text-xl bg-black md:px-6">
+            <div className="z-10 flex items-center justify-between w-full h-20 px-3 text-xl bg-black md:px-6">
                 <h1 className="flex text-[#2888b5] text-3xl font-bold">
                     gitPHYSICALxyz
                 </h1>
