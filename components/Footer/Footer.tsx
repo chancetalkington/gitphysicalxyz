@@ -20,7 +20,7 @@ export default function Footer() {
                     className="ml-4 mr-2 transition-opacity duration-300 hover:opacity-70"
                 />
                 <SocialIcon
-                    url="https://discord.gg/3AkruSa4"
+                    url="https://discord.gg/zdYa8RUCYX"
                     target="_blank"
                     network="discord"
                     fgColor="#FFFFFF"
