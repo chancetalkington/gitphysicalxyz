@@ -16,7 +16,7 @@ export default function TropicanaPlantCollective() {
     const [isMintLive, setIsMintLive] = useState(false);
 
     async function handleClick() {
-        if (!isMintLive) {
+        if (isMintLive) {
             if (!wallet) {
                 setVisible(true);
             } else if (!connecting && !connected && !ready) {
@@ -59,7 +59,7 @@ export default function TropicanaPlantCollective() {
                     onClick={handleClick}
                     className="px-5 border-2 border-black font-fredoka text-2xl py-2.5 mt-10 font-bold text-[#2888b5] transition-colors rounded-lg hover:bg-[#2d2d2d] bg-[#474745]"
                 >
-                    {!isMintLive ? (
+                    {isMintLive ? (
                         <>
                             {wallet ? (
                                 <>
